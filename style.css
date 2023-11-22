@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #001c38;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 3rem;
+}
+
+.add{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #4158d0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+.add:hover{
+    background-color: #3eecac;
+    color: black;
+}
+.add:active{
+    transform: scale(.95);
+}
+
+.notes .tools{
+    background-color: #3eecac;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.notes .tools button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.notes textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+.main{
+    padding: 20px;
+}
+.hidden{
+    display: none;
+}
+.notes{
+    background-color: white;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0.1);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
